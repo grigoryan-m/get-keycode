@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.panel{
+  width: 90vw;
+  max-width: 450px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+hr{
+  margin-top: 20px;
+}
+.code{
+  padding: 10px;
+  border: 1px solid black;
+  display: inline-block;
+}
+.codes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+}
